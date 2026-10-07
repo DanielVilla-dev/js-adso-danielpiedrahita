@@ -8,7 +8,6 @@ console.log(`Producto: ${NOMBRE}`)
 console.log(`Cantidad: ${cantidad}`)
 console.log(`Total a pagar: ${TOTAL}`)
 
-// hola esto es una prueba
 
 // ¿Qué hace Javascript en una página web, comparado con HTML y CSS?
 // HTML crea un botón, CSS lo pinta de azul y le da bordes bonitos, y JS es el comportamiento de la página, hace que sea interactiva con los usuarios
