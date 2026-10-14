@@ -40,6 +40,8 @@ if (entrada === null || Number.isNaN(precioUnitario) || Number.isNaN(cantidad) |
     
     console.log(`IVA (19 %): ${precioConIva.toLocaleString("es-CO", {style: "currency", currency: "COP" })}`)
     
+    console.log(`TOTAL: ${total.toLocaleString("es-CO", {style: "currency", currency: "COP" })}`)
+   
     alert(`TOTAL: ${total.toLocaleString("es-CO", {style: "currency", currency: "COP" })}`)
 
 }
