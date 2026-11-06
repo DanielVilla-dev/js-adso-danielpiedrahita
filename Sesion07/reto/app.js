@@ -47,9 +47,9 @@ function valorInventario(){
     
     let sumaInventario = 0
     
-    for (let i = 0; i < catalogo.length; i++){
+    for (let i of catalogo){
 
-        sumaInventario += catalogo[i].precio
+        sumaInventario = (i.precio * i.stock)
 
     }
     
